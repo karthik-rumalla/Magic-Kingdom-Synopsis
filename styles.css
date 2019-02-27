@@ -1,0 +1,484 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    padding: 0px;
+    border: none;
+}
+
+a{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #d17b02;
+}
+
+body {	
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    color: #cbcbc9;
+    background: #060401 url(images/bg.jpg) repeat-x top;
+}
+
+h2{
+	font-family: 'Pacifico', Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #d17b02;
+	padding-bottom: 5px;
+}
+
+.clear{
+	clear: both;	
+}
+
+#wrap{
+	width: 867px;
+	border-left: 1px solid #d17b02;
+	border-right: 1px solid #d17b02;
+	margin: 0 auto;
+}
+
+#header{
+	height: 573px;
+	background: url(images/header.jpg) no-repeat;
+}
+
+#menu{
+	width: 640px;
+	height: 35px;
+	background: url(images/menu_bg.png);
+	float: right;
+}
+
+#menu ul{
+	padding-left: 0px;
+    list-style: none;
+	padding: 0px 0px 0px 10px;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+    float: left;
+    width: 90px;
+    height: 24px;
+    padding-top: 10px;
+	padding-left: 34px;
+    background: url(images/menu_bg_button.png) no-repeat top left;
+}
+
+#menu ul li a:hover,  #menu ul li .active{
+	color: #ffffff;
+	background: url(images/menu_active.png) no-repeat top left;
+}
+
+/*logo*/
+
+#logo{
+	padding-top: 110px;
+	padding-left: 40px;
+	height: 158px;	
+}
+
+#logo h1 a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+#logo h1 {
+	font-family: 'Pacifico', Helvetica, sans-serif;
+	font-size: 90px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#logo a small{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*prew_box*/
+.pad_top{
+	padding-top: 30px;	
+}
+
+.prew_box{
+	width: 805px;
+	height: 208px;
+	background: #060401;
+	border: 1px solid #d27d03;
+
+}
+
+#prew_left{
+	float: left;
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-top: 90px;
+}
+
+#prew_right{
+	float: left;
+	padding-left: 3px;
+	padding-top: 90px;
+}
+
+.prew_col_left{
+	padding: 5px;
+	width: 433px;
+	border-right: 1px solid #d17b02;
+	float: left;
+}
+
+.prew_col_right{
+	float: left;
+	padding: 15px;
+	width: 330px;
+	overflow: hidden
+}
+
+.prew_col_right p a{
+	text-decoration: underline;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+.mytext {
+	line-height: 22px;
+	font-weight: normal;
+	color: #ffffff;
+	width: 200px;
+}
+
+.one_column{
+	padding: 30px;
+}
+
+.tree_column{
+	
+}
+
+.left_column{
+	float: left;
+	width: 230px;
+	padding-left: 30px;
+}
+
+.middle_column{
+	float: left;
+	width: 230px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.right_column{
+	float: right;
+	width: 260px;
+	padding-right: 30px;
+}
+
+.left_column p, .middle_column p{
+	padding-top: 10px;
+}
+
+.left_column h2, .middle_column h2, .right_column h2{
+	padding-bottom: 20px;
+}
+
+.right_column fieldset {
+    border: none;
+	padding-top: 5px;
+}
+
+.right_column input {
+    margin-bottom: 5px;
+}
+
+#submit, #reset{
+    width: 65px;
+    height: 20px;
+	line-height: 20px;
+    background: url(images/button_bg.jpg) no-repeat left top;
+    border: none;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #000000;
+	margin-right: 10px;
+}
+
+#text1, #text2, #text3{
+    width: 239px;
+    height: 24px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    background: url(images/input_bg.jpg);
+    background-repeat:no-repeat;
+    background-position:left top;
+    color: #000000;
+    font-size: 12px;
+	line-height: 24px;
+    padding-bottom: 5px;
+}
+
+#text_mess {
+    width: 239px;
+    height: 55px;
+    padding-top: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border: none;
+    background: url(images/message_bg.jpg);
+    background-repeat:no-repeat;
+    background-position:left top;
+    color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/*footer*/
+#footer_top{
+	background: url(images/footer_bg.jpg) no-repeat top left;
+	width: 867px;
+	height: 285px;
+}
+
+#footer_top p{
+	color: #ffffff;
+}
+
+#footer_pad{
+	padding: 40px 50px 30px 60px;
+}
+
+.foot_col1, .foot_col2, .foot_col3, .foot_col4{
+    float: left;
+}
+
+.foot_col1{
+    width: 150px;
+}
+
+.foot_col1 h2, .foot_col2 h2, .foot_col4 h2{
+	padding-left: 20px;
+}
+
+.foot_col2{
+    width: 200px;
+}
+
+.foot_col3{
+    width: 230px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.foot_col4{
+    width: 150px;
+}
+
+.foot_col4 a{
+	font-weight: normal;
+}
+
+.ls{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.ls li{
+    margin-bottom: 4px;
+
+    background: url(images/bot_bor.png) repeat-x bottom;
+}
+
+.ls li a{
+    background: url(images/ls1.png) no-repeat 0px 6px;
+    display: block;
+    padding-left: 15px;
+    padding-bottom: 4px;
+    color: #ffffff;
+    font-weight: normal;
+}
+
+.ls li a:hover{
+    color: #d17b02;
+}
+
+.ls_style{
+    background: url(images/ls1.png) no-repeat 0px 6px;
+    display: block;
+    padding-left: 15px;
+    color: #ffffff;
+}
+
+.link1{
+    background: url(images/link1.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link2{
+    background: url(images/link2.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link3{
+    background: url(images/link3.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+.link4{
+    background: url(images/link4.png) no-repeat 0px 2px;
+    padding-left: 30px;
+    min-height: 18px;
+    padding-bottom: 10px;
+}
+
+#footer{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 10px;
+}
+
+/*calendar*/
+
+#calendar table {
+    width: 230px;
+    text-align: center;
+    color: #ffffff;
+	font-size: 9px;
+}
+
+#calendar h2{
+	text-align: center;
+}
+
+#calendar tbody td {
+    border: none;
+    width: 34px;
+	color: #ffffff;
+}
+
+#calendar caption, #calendar thead th{
+	color: #ffffff;
+	font-weight: normal;
+}
+
+#calendar #prev {
+    text-align: left;
+}
+
+#calendar #next {
+    text-align: right;
+}
+
+#calendar a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+#calendar #now {
+    background: #ffffff;
+    border: 1px solid #d17b02;
+    color: #000000;
+}
+
+
+/*
+Header Scroller
+*/
+
+/*
+	jQuery Coda-Slider v2.0 - http://www.ndoherty.biz/coda-slider
+	Copyright (c) 2009 Niall Doherty
+	This plugin available for use in all personal or commercial projects under both MIT and GPL licenses.
+*/
+
+/* Insignificant stuff, for demo purposes */
+
+	.panel h2.title { margin-bottom: 10px }
+	noscript div { background: #ccc; border: 0px; margin: 0px 0; padding: 15px }
+
+/* Most common stuff you'll need to change */
+
+	.coda-slider-wrapper { padding: 0px }
+	.coda-slider { background: none}
+	
+	/* Use this to keep the slider content contained in a box even when JavaScript is disabled */
+	.coda-slider-no-js .coda-slider { height: 270px; overflow: hidden !important; padding-right: 10px }
+	
+	/* Change the width of the entire slider (without dynamic arrows) */
+	.coda-slider, .coda-slider .panel { width: 967px; overflow: hidden} 
+	
+	/* Change margin and width of the slider (with dynamic arrows) */
+	.coda-slider-wrapper.arrows .coda-slider, .coda-slider-wrapper.arrows .coda-slider .panel { width: 807px }
+	.coda-slider-wrapper.arrows .coda-slider { margin: 0px }
+	
+	/* Arrow styling */
+	.coda-nav-left a { background: url(images/prew_but_left.png) no-repeat 0px 90px; color: #fff; width: 24px; height: 270px; text-indent: -9000em; margin-left: 5px; border: none;}
+	.coda-nav-right a { background: url(images/prew_but_right.png) no-repeat 0px 90px; color: #fff; width: 31px; height: 270px; text-indent: -9000em; border: none}
+	
+	/* Tab nav */
+	.coda-nav ul li a.current { }
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper { padding: 0px }
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul { clear: both; display: block; margin: auto; overflow: hidden }
+	.coda-nav ul li { display: none }
+	.coda-nav ul li a { display: block; float: left; margin-right: 1px; padding: 3px 6px; text-decoration: none }
+	
+	/* Miscellaneous */
+	.coda-slider-wrapper { clear: both; overflow: hidden }
+	.coda-slider { float: left; overflow: hidden; position: relative }
+	.coda-slider .panel { display: block; float: left }
+	.coda-slider .panel-container { position: relative }
+	.coda-nav-left, .coda-nav-right { float: left }
+	.coda-nav-left a, .coda-nav-right a { display: block; text-align: center; text-decoration: none }
